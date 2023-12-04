@@ -12,7 +12,7 @@ $ npm install --save-dev svelte-nprogress
 
 ```svelte
 <script lang="ts">
-	import NProgress from '$lib/NProgress.svelte'
+	import NProgress from 'svelte-nprogress'
 	import { navigating } from '$app/stores'
 	let color = 'red' // or #f00
 </script>
