@@ -1,6 +1,6 @@
 {
 	"name": "svelte-nprogress",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -29,7 +29,6 @@
 		"@sveltejs/kit": "^1.27.4",
 		"@sveltejs/package": "^2.0.0",
 		"@types/nprogress": "^0.2.3",
-		"nprogress": "^0.2.0",
 		"publint": "^0.1.9",
 		"svelte": "^4.2.7",
 		"svelte-check": "^3.6.0",
@@ -40,5 +39,8 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"nprogress": "^0.2.0"
+	}
 }
