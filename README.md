@@ -1,6 +1,12 @@
 # nprogress in svelte
 
+## refer https://github.com/rstacruz/nprogress
+
 ## usage
+
+```bash
+$ npm install --save-dev svelte-nprogress
+```
 
 - in `+layout.svelte`
 
